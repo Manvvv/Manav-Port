@@ -1,7 +1,10 @@
 import "./styles/Work.css";
 import WorkImage from "./WorkImage";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import gsap from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { ScrollSmoother } from "gsap/ScrollSmoother"
+
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(useGSAP);

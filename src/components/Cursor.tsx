@@ -1,6 +1,10 @@
 import { useEffect, useRef } from "react";
 import "./styles/Cursor.css";
-import gsap from "gsap";
+import gsap from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { ScrollSmoother } from "gsap/ScrollSmoother"
+
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 
 const Cursor = () => {
   const cursorRef = useRef<HTMLDivElement>(null);

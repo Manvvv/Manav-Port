@@ -1,9 +1,13 @@
 import * as THREE from "three";
 import { RGBELoader } from "three-stdlib";
-import { gsap } from "gsap";
+import gsap from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { ScrollSmoother } from "gsap/ScrollSmoother"
+
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother)
 
 const setLighting = (scene: THREE.Scene) => {
-  const directionalLight = new THREE.DirectionalLight(0xc7a9ff, 0);
+  const directionalLight = new THREE.DirectionalLight(0x00d4ff, 0);
   directionalLight.intensity = 0;
   directionalLight.position.set(-0.47, -0.32, -1);
   directionalLight.castShadow = true;
@@ -13,7 +17,7 @@ const setLighting = (scene: THREE.Scene) => {
   directionalLight.shadow.camera.far = 50;
   scene.add(directionalLight);
 
-  const pointLight = new THREE.PointLight(0xc2a4ff, 0, 100, 3);
+  const pointLight = new THREE.PointLight(0xff6b9d, 0, 100, 3);
   pointLight.position.set(3, 12, 4);
   pointLight.castShadow = true;
   scene.add(pointLight);
