@@ -87,24 +87,23 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
-              <h4>Description</h4>
+              <h3>FULL STACK DEVELOPMENT</h3>
+             
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+               Build responsive and scalable web applications with clean architecture and seamless user experience. Focused on turning ideas into real products through efficient problem solving and modern development practices.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
+                <div className="what-tags">RestAPI</div>
+                <div className="what-tags">MongoDB</div>
                 <div className="what-tags">React</div>
                 <div className="what-tags">Css</div>
                 <div className="what-tags">Node.js</div>
                 <div className="what-tags">Next.js</div>
                 <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">Vercel</div>
+                <div className="what-tags">Github</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,22 +127,21 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
-              <h4>Description</h4>
+              <h3>AI & PRODUCT BUILDING</h3>
+              
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                Create intelligent and impactful digital solutions by combining software development with AI concepts. Passionate about building products that solve real-world problems.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">Fast API</div>
+                <div className="what-tags">Gemini API</div>
+                <div className="what-tags">LLM Integration</div>
+                <div className="what-tags">Machine Learning</div>
+                <div className="what-tags">Prompt Engineering</div>
+                <div className="what-tags">Problem Solving</div>
+                <div className="what-tags">Product Development</div>
               </div>
               <div className="what-arrow"></div>
             </div>
